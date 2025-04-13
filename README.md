@@ -31,6 +31,10 @@ Walmart's main database structure consists of three tables: features, sales and 
 # Executive Summary
 ## Overview of Findings
     ***PICTURE***
-From 2010-2012, Walmart attains a monthly sales average of **600,000,000**. Stores classified as *Type A*, which is **64%** of them, contribute to the most sales averaging **20,000** sales per store. Walmart performs much better during the hotter seasons, spring and summer, compared to the colder seasons, autumn and winter. Holidays, such as Christmas, are days that contribute to a large number of sales, with the corrsponding week contributing around 10% to 20% of a given months sales. January and November have performed the worst with sale numbers contributing only 5% and 6% respectively of sales overall. 
+From 2010-2012, Walmart attains a monthly sales average of **600 million**. Stores classified as *Type A*, which is **64%** of them, contribute to the most sales averaging **20,000** sales per store. Walmart performs much better during the hotter seasons, spring and summer, compared to the colder seasons, autumn and winter. Holidays, such as Christmas, are days that contribute to a large number of sales, with the corrsponding week contributing around 10% to 20% of a given months sales. January and November have performed the worst with sale numbers contributing only 5% and 6% respectively of sales overall.
+
+# Insights Deep Dive
+## **Seasonality Time Series Analysis**  
+Walmart experiences a high jump in sales from January, which is at its lowest at around **325 million**, to Febuary increasing by around **300 million**. Walmarts sales then undergoes steady gains till April, where it experiences its first peak. Following April, Walmart experiences a small dip in sales before steadily increasing till it reaches its second and highest peak in July. After that, the remaining months float above **550 million** sales, with the exception of November at around **400 million** sales.
 
 
