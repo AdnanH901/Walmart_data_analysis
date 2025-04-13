@@ -24,7 +24,7 @@ The Tableau dashboards presenting insights in the key areas explored are found [
 
 ## Summary of Data
 Walmart's main database structure consists of three tables: features, sales and stores, with a total row count of **430,000**. A description of each table is as follows:
-- **features:** 
-- **sales:** 
-- **stores:** 
+- **features:** Consists of weekly data of 49 different Walmart stores across the US between 2010 and 2012. It includes features such as the local temperature, fuel prices, CPI, unemployment rates and if the given week is a holiday.
+- **sales:** Contains weekly sales data of each store over the year 2010-2012.
+- **stores:** Contains the store type and the size of each store (encoded as type A, B and C).
 
