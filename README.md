@@ -28,3 +28,5 @@ Walmart's main database structure consists of three tables: features, sales and 
 - **sales:** Contains weekly sales data of each store over the year 2010-2012.
 - **stores:** Contains the store type and the size of each store (encoded as type A, B and C).
 
+
+
