@@ -35,6 +35,8 @@ From 2010-2012, Walmart attains a monthly sales average of **600 million**. Stor
 
 # Insights Deep Dive
 ## **Seasonality Time Series Analysis**  
-Walmart experiences a high jump in sales from January, which is at its lowest at around **325 million**, to Febuary increasing by around **300 million**. Walmarts sales then undergoes steady gains till April, where it experiences its first peak. Following April, Walmart experiences a small dip in sales before steadily increasing till it reaches its second and highest peak in July. After that, the remaining months float above **550 million** sales, with the exception of November at around **400 million** sales.
+- **Monthly Time Series Analysis:** Walmart experiences a high jump in sales from January, which is at its lowest at around **325 million**, to Febuary increasing by around **300 million**. Walmarts sales then undergoes steady gains till April, where it experiences its first peak. Following April, Walmart experiences a small dip in sales before steadily increasing till it reaches its second and highest peak in July. After that, the remaining months float above **550 million** sales, with the exception of November at around **400 million** sales.
+- **Seasonal Analysis:** From the bar charts, it is clear that Walmart does much better during the warmer seasons than the colder seasons. In the colder seasons, Walmart procured **3.1 billion** sales across the three years and, in the warmer seasons, Walmart has procured **3.7 billion** sales over three years. This suggests that people buy more items in the hotter climates than the colder climates, possibly due to summer holidays.
+
 
 
