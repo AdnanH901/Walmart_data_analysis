@@ -31,14 +31,18 @@ Walmart's main database structure consists of three tables: features, sales and 
 - **stores:** Contains the store type and the size of each store (encoded as type A, B and C).
 
 # Executive Summary
+
 ### Overview of Findings
 ![image](https://github.com/user-attachments/assets/f8de23bf-ddbe-43ee-a85d-f637de54a949)
+<br><br>
 
 From 2010 to 2012, Walmart attained a monthly sales average of **600 million**. The majority, 48%, of stores are classified as *Type A* and contribute the most sales, accounting for 64% of sales overall and averaging **20,000** sales per store per month. Walmart performs much better during the hotter seasons, spring and summer, compared to the colder seasons, autumn and winter. Holidays, such as Christmas, are days that contribute to a large number of sales, with the corresponding week contributing around 10% to 20% of a given month's sales. January and November have performed the worst with sales numbers contributing only 5% and 6% respectively of sales overall.
 
 # Insights Deep Dive
+
 ### **Store Size Impact**
 <img width="1011" alt="image" src="https://github.com/user-attachments/assets/085f680f-f858-420f-b5c4-c472f40e8d8d"/> 
+<br><br>
 
 - **Type Differences:** Walmart's stores are decomposed into three types, encoded as *Type A*, *Type B* and *Type C*. Although not much information is given as to their differences, from the data, we can see that:
   - ***Type A* stores are the majority and are the biggest:** *Type A* stores are the account for **44%** of all Walmart stores and average around **175,000 square feet**. *Type B* stores make up **38%** of Walmart stores and average around **101,000 square feet**. *Type C* stores are the minority making up **18%** of Walmart stores and average around **41,000 square feet**. 
@@ -53,14 +57,13 @@ From 2010 to 2012, Walmart attained a monthly sales average of **600 million**. 
 
 ### **Holiday Sales Performance**
 <img width="1011" alt="image" src="https://github.com/user-attachments/assets/9bd5a02b-31a3-4094-975c-1032fbdc1526"/> 
+<br><be>
+
 
 ### Temperature & Sales
 <img width="560" alt="image" src="https://github.com/user-attachments/assets/532665b2-9c89-4093-9101-5294cee5a2c9"/> 
-<img width="447" alt="image" src="https://github.com/user-attachments/assets/036db379-a197-4a1b-ad93-0794819e43bd"/> 
+<img width="447" alt="image" src="https://github.com/user-attachments/assets/f17f47ed-4d2a-4d65-8441-9fe90e660da6"/> 
+<br><br>
 
-- **Temperature Rundown:** The graph on the right presents the sales and the 
-
-
-
-
-
+- **Temperature Rundown:** The graph on the right presents the average weekly sales for an average weekly temperature, and the graph on the left shows the average monthly temperatures across the US. The graph on the right starts with a huge dip towards the colder extreme temperatures before steadily increasing till at **0°C** where the sales are at their peak. Sales numbers then fluctuate between **30,000** and **55,000** for temperatures above **0°C** before experiencing another huge dip at the hotter extreme temperatures.
+- **Temperature Data Seemingly Contradicts Intuition & Results:** Intuitively, from the analysis shown in [Seasonality Time Series Analysis](#seasonality-time-series-analysis), one would expect Walmart's sales in the more extreme sides to be greater than other temperatures and for warmer temperatures to display higher sales numbers overall compared to lower temperatures. Furthermore, Walmart's Sales peaking at 0°C contradicts the statements made in [Seasonality Time Series Analysis](#seasonality-time-series-analysis). At first glance, the data regarding temperature seems to contradict the narrative that hotter climates lead to greater sales. However, the graph on the left shows that colder temperatures (especially around 0°C) are the modal temperatures, which explains the peak on the right graph. Overall, the data suggests that Walmart's greater success in hotter climates is due to factors besides temperature; in other words, <ins>***temperature is no direct indication of high sales***</ins>.
