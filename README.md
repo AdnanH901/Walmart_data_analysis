@@ -78,9 +78,6 @@ Based on the insights and findings above, we would recommend the Store Developme
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-- **Assumption 1:** The amount paid for subscribers between countries does vary depending on multiple factors. But for ease of calculations, it is assumed that each country pays the same amount per pricing tier in GBP.
-  
-- **Assumption 2:** Netflix only has three and only three monthly pricing tiers that have not varied in price throughout the years. Those being:
-  - Standard with Ads (£5.99)
-  - Standard (£12.99)
-  - Premium (£18.99)
+- **Assumption 1:** The data was drawn from [Kaggle](https://www.kaggle.com/), view the data [here](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast), is assumed to be an accurate depiction of Walmart's sales data.
+
+- **Assumption 2:** The **45 stores** mentioned is a realistic localised depiction of the more than **10,750 store** that Walmart actually has.
