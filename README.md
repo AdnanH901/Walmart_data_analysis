@@ -36,7 +36,7 @@ Walmart's main database structure consists of three tables: features, sales and 
 ![image](https://github.com/user-attachments/assets/f8de23bf-ddbe-43ee-a85d-f637de54a949)
 <br><br>
 
-From 2010 to 2012, Walmart attained a monthly sales average of **600 million**. The majority, 48%, of stores are classified as *Type A* and contribute the most sales, accounting for 64% of sales overall and averaging **20,000** sales per store per month. Walmart performs much better during the hotter seasons, spring and summer, compared to the colder seasons, autumn and winter. Holidays, such as Christmas, are days that contribute to a large number of sales, with the corresponding week contributing around 10% to 20% of a given month's sales. January and November have performed the worst with sales numbers contributing only 5% and 6% respectively of sales overall.
+From 2010 to 2012, Walmart attained a monthly sales average of **600 million**. The majority, 48%, of stores are classified as *Type A* and contribute the most sales, accounting for 64% of sales overall and averaging **20,000** sales per store per month. Walmart performs much better during the hotter seasons, spring and summer, compared to the colder seasons, autumn and winter. Holidays, such as Christmas, contribute to many sales, with the corresponding week contributing around 10% to 20% of a given month's sales. January and November have performed the worst with sales numbers contributing only 5% and 6% respectively.
 
 # Insights Deep Dive
 
@@ -46,14 +46,14 @@ From 2010 to 2012, Walmart attained a monthly sales average of **600 million**. 
 
 - **Type Differences:** Walmart's stores are decomposed into three types, encoded as *Type A*, *Type B* and *Type C*. Although not much information is given as to their differences, from the data, we can see that:
   - ***Type A* stores are the majority and are the biggest:** *Type A* stores are the account for **44%** of all Walmart stores and average around **175,000 square feet**. *Type B* stores make up **38%** of Walmart stores and average around **101,000 square feet**. *Type C* stores are the minority making up **18%** of Walmart stores and average around **41,000 square feet**. 
-  - ***Type A* stores attain the highest sales numbers:** *Type A* stores are stores that typically achieve the highest sales numbers compared to the other types of stores, averaging **206 million sales** in total per store. *Type B* stores average around **117 million sales** in total per store closley followed by *Type C* stores averaging around **101 million sales** in total per store. *Type A* stores give nearly double the sales numbers of *Type B* and *Type C* stores. This shows how valuable *Type A* stores are and how essential they are to the sustainability and growth of Walmart's business. However, despite their size, *Type C* stores comfortably compete against *Type B* stores whilst being less than half as big. This is most likely because they fill a market in smaller communities and busy/ cramped areas.
-- ***Type A & C* stores are the way to go:** The data suggests a positive correlation between size and sales numbers; in other words, <ins>***the bigger the size, the bigger the sales***</ins>. The data also clearly shows that smaller stores of *Type C* still generate relatively high sales numbers despite their size. This suggests that Walmart should invest in and build more *Type A* and *Type C* stores across the US and abroad.
+  - ***Type A* stores attain the highest sales numbers:** *Type A* stores typically achieve the highest sales numbers compared to the other types of stores, averaging **206 million sales** in total per store. *Type B* stores average around **117 million sales** in total per store closley followed by *Type C* stores averaging around **101 million sales** in total per store. *Type A* stores give nearly double the sales numbers of *Type B* and *Type C* stores. This shows how valuable *Type A* stores are and how essential they are to the sustainability and growth of Walmart's business. However, despite their size, *Type C* stores comfortably compete against *Type B* stores whilst being less than half as big. This is most likely because they fill a market in smaller communities and busy/ cramped areas.
+- ***Type A & C* stores are the way to go:** The data suggests a positive correlation between size and sales numbers; in other words, <ins> ***the bigger the size, the bigger the sales***</ins>. The data also clearly shows that smaller stores of *Type C* still generate relatively high sales numbers despite their size. This suggests that Walmart should invest in and build more *Type A* and *Type C* stores across the US and abroad.
 
 ### **Seasonality Time Series Analysis**  
 ![image](https://github.com/user-attachments/assets/4482e694-1eaf-4ca7-939c-04a4d7909fb5)
 
 - **Monthly Time Series Analysis:** Walmart experiences a high jump in sales from January, which is at its lowest at around **325 million**, to February, increasing by around **300 million**. Walmart's sales then undergo steady gains till April, where it experiences its first peak. Following April, Walmart experiences a minute dip in sales before steadily increasing till it reaches its second and highest peak in July. After that, the remaining months float above **550 million** sales, except for November at around **400 million** sales.
-- **Seasonal Analysis:** It is clear that Walmart does much better during the warmer seasons than the colder seasons. In the colder seasons, Walmart procured **3.1 billion** sales across the three years and in the warmer seasons, Walmart has procured **3.7 billion** sales over three years. This suggests that people buy more items in the hotter climates than the colder climates, possibly due to summer holidays.
+- **Seasonal Analysis:** It is clear that Walmart does much better during the warmer seasons than the colder seasons. In the colder seasons, Walmart procured **3.1 billion** sales across the three years and in the warmer seasons, Walmart has procured **3.7 billion** sales over three years. This suggests that <ins>***people buy more items in the hotter climates than the colder climates***</ins>, possibly due to summer holidays.
 
 ### **Holiday Sales Performance**
 <img width="1011" alt="image" src="https://github.com/user-attachments/assets/9bd5a02b-31a3-4094-975c-1032fbdc1526"/> 
@@ -65,5 +65,22 @@ From 2010 to 2012, Walmart attained a monthly sales average of **600 million**. 
 <img width="447" alt="image" src="https://github.com/user-attachments/assets/f17f47ed-4d2a-4d65-8441-9fe90e660da6"/> 
 <br><br>
 
-- **Temperature Rundown:** The graph on the right presents the average weekly sales for an average weekly temperature, and the graph on the left shows the average monthly temperatures across the US. The graph on the right starts with a huge dip towards the colder extreme temperatures before steadily increasing till at **0°C** where the sales are at their peak. Sales numbers then fluctuate between **30,000** and **55,000** for temperatures above **0°C** before experiencing another huge dip at the hotter extreme temperatures.
+- **Peak Sales at 0°C:** The graph on the right presents the average weekly sales for an average weekly temperature, and the graph on the left shows the average monthly temperatures across the US. The graph on the right starts with a huge dip towards the colder extreme temperatures before steadily increasing until **0°C**, where the sales peak. Sales numbers then fluctuate between **30,000** and **55,000** for temperatures above **0°C** before experiencing another huge dip at the hotter extreme temperatures.
 - **Temperature Data Seemingly Contradicts Intuition & Results:** Intuitively, from the analysis shown in [Seasonality Time Series Analysis](#seasonality-time-series-analysis), one would expect Walmart's sales in the more extreme sides to be greater than other temperatures and for warmer temperatures to display higher sales numbers overall compared to lower temperatures. Furthermore, Walmart's Sales peaking at 0°C contradicts the statements made in [Seasonality Time Series Analysis](#seasonality-time-series-analysis). At first glance, the data regarding temperature seems to contradict the narrative that hotter climates lead to greater sales. However, the graph on the left shows that colder temperatures (especially around 0°C) are the modal temperatures, which explains the peak on the right graph. Overall, the data suggests that Walmart's greater success in hotter climates is due to factors besides temperature; in other words, <ins>***temperature is no direct indication of high sales***</ins>.
+
+# Recommendations:
+
+Based on the insights and findings above, we would recommend the Store Development, Strategic Planning, Marketing, and Supply Chain teams to consider the following:
+
+- 
+
+# Assumptions and Caveats:
+
+Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+
+- **Assumption 1:** The amount paid for subscribers between countries does vary depending on multiple factors. But for ease of calculations, it is assumed that each country pays the same amount per pricing tier in GBP.
+  
+- **Assumption 2:** Netflix only has three and only three monthly pricing tiers that have not varied in price throughout the years. Those being:
+  - Standard with Ads (£5.99)
+  - Standard (£12.99)
+  - Premium (£18.99)
