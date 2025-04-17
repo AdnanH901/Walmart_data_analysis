@@ -81,3 +81,8 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 - **Assumption 1:** The data was drawn from [Kaggle](https://www.kaggle.com/), view the data [here](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast), is assumed to be an accurate depiction of Walmart's sales data.
 
 - **Assumption 2:** The **45 stores** mentioned is a realistic localised depiction of the more than **10,750 store** that Walmart actually has.
+
+- **Assumption 3:** Except for major holidays, the sales per day for a given week are distributed evenly, i.e.
+```math
+$$Daily\_Sales = \frac{Weekly\_Sales}{7}.$$
+```
