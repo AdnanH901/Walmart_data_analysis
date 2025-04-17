@@ -34,7 +34,7 @@ Walmart's main database structure consists of three tables: features, sales and 
 
 # Executive Summary
 
-### Overview of Findings
+## Overview of Findings
 ![image](https://github.com/user-attachments/assets/f8de23bf-ddbe-43ee-a85d-f637de54a949)
 <br><br>
 
@@ -42,7 +42,7 @@ From 2010 to 2012, Walmart attained a monthly sales average of **600 million**. 
 
 # Insights Deep Dive
 
-### **Store Size Impact**
+## **Store Size Impact**
 <img width="1011" alt="image" src="https://github.com/user-attachments/assets/085f680f-f858-420f-b5c4-c472f40e8d8d"/> 
 <br><br>
 
@@ -51,18 +51,18 @@ From 2010 to 2012, Walmart attained a monthly sales average of **600 million**. 
   - ***Type A* stores attain the highest sales numbers:** *Type A* stores typically achieve the highest sales numbers compared to the other types of stores, averaging **206 million sales** in total per store. *Type B* stores average around **117 million sales** in total per store closley followed by *Type C* stores averaging around **101 million sales** in total per store. *Type A* stores give nearly double the sales numbers of *Type B* and *Type C* stores. This shows how valuable *Type A* stores are and how essential they are to the sustainability and growth of Walmart's business. However, despite their size, *Type C* stores comfortably compete against *Type B* stores whilst being less than half as big. This is most likely because they fill a market in smaller communities and busy/ cramped areas.
 - ***Type A & C* stores are the way to go:** The data suggests a positive correlation between size and sales numbers; in other words, <ins> ***the bigger the size, the bigger the sales***</ins>. The data also clearly shows that smaller stores of *Type C* still generate relatively high sales numbers despite their size. This suggests that Walmart should invest in and build more *Type A* and *Type C* stores across the US and abroad.
 
-### **Seasonality Time Series Analysis**  
+## **Seasonality Time Series Analysis**  
 ![image](https://github.com/user-attachments/assets/4482e694-1eaf-4ca7-939c-04a4d7909fb5)
 
 - **Monthly Time Series Analysis:** Walmart experiences a high jump in sales from January, which is at its lowest at around **325 million**, to February, increasing by around **300 million**. Walmart's sales then undergo steady gains till April, where it experiences its first peak. Following April, Walmart experiences a minute dip in sales before steadily increasing till it reaches its second and highest peak in July. After that, the remaining months float above **550 million** sales, except for November at around **400 million** sales.
 - **Seasonal Analysis:** It is clear that Walmart does much better during the warmer seasons than the colder seasons. In the colder seasons, Walmart procured **3.1 billion** sales across the three years and in the warmer seasons, Walmart has procured **3.7 billion** sales over three years. This suggests that <ins>***people buy more items in the hotter climates than the colder climates***</ins>, possibly due to summer holidays.
 
-### **Holiday Sales Performance**
+## **Holiday Sales Performance**
 <img width="1011" alt="image" src="https://github.com/user-attachments/assets/9bd5a02b-31a3-4094-975c-1032fbdc1526"/> 
 <br><be>
 
 
-### Temperature & Sales
+## Temperature & Sales
 <img width="560" alt="image" src="https://github.com/user-attachments/assets/532665b2-9c89-4093-9101-5294cee5a2c9"/> 
 <img width="447" alt="image" src="https://github.com/user-attachments/assets/f17f47ed-4d2a-4d65-8441-9fe90e660da6"/> 
 <br><br>
@@ -80,7 +80,7 @@ Based on the insights and findings above, we would recommend that the Store Deve
 
 Throughout the analysis, multiple assumptions and caveats were made to manage challenges with the data. These assumptions and caveats are noted below.
 
-<ins> **Assumptions:**<ins/>
+## Assumptions
 - **Assumption 1:** The data was drawn from [Kaggle](https://www.kaggle.com/), view the data [here](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast), and is assumed to be an accurate depiction of Walmart's sales data.
 
 - **Assumption 2:** The **45 stores** mentioned is a realistic localised depiction of the more than **10,750 store** that Walmart actually has.
@@ -90,7 +90,7 @@ Throughout the analysis, multiple assumptions and caveats were made to manage ch
 $$Daily\_Sales = \frac{Weekly\_Sales}{7}.$$
 ```
 
-<ins> **Caveats:**<ins/>
+## Caveats
 
 - **Caveat 1:** There are many confounding variables at play, especially regarding store type, temperature, CPI and unemployment rates. For example, the data does not show or define any explicit differences between types *A*, *B* and *C*, which leads us to only give high-level analysis on the advantages and drawbacks of each type. From the analysis in [Store Size Impact](#store-size-impact), the data suggests that store types *A* and *C* are objectively better than *B*. However, confounding variables may suggest that stores categorised as *Type B* may provide services/ access markets that the other types cannot, due to their nature.
 
