@@ -67,6 +67,32 @@ From 2010 to 2012, Walmart attained a monthly sales average of **600 million**. 
 
 Based on the insights and findings above, we would recommend that the Store Development, Strategic Planning, Marketing, and Supply Chain teams consider the following:
 
+- **Early-Year Promotions:** Focus on strong promotional activities from January to April to capitalise on the natural sales increase.
+  
+- **Holiday Focus:** Enhance holiday marketing campaigns in December to boost sales further, leveraging the slight recovery seen after the November dip.
+
+- **Inventory Planning:** Walmart should focus on ramping up inventory before peak sales periods like April and maintain a steady supply during the mid-year months to prevent stockouts.
+
+- **Sustain Mid-Year Sales:** Maintain consistent inventory and targeted marketing during May to August to sustain the steady demand. 
+  
+- **Promotional Strategies:** Targeted promotions during the January-April growth period and the mid-year stable period can maximise sales, while strategic discounts in November could help mitigate the sales dip.
+
+- **Prioritise investment in *Type A* and *Type C* stores & avoid overinvesting in Type B stores:** The data suggests *Type A* and *Type C* stores show the highest returns relative to their size and market. Type A stores generate the most revenue, while Type C stores perform efficiently in compact or niche markets.
+
+- **Possible Store Type Changes:** Initiate comprehensive strategic planning efforts to successfully transform stores of _Type B_ into high-performing _Type A_ locations.
+
+- **Reassess overall strategies during January and November:** From [Seasonality Time Series Analysis](#seasonality-time-series-analysis), we know that January and November are Walmart's worst-performing months. Further analysis and more data need to be collected and evaluated to generate new possible promotions and sponsorships to inflate the sales during those months. For example, Walmart can increase stock levels in high-performing months (April to July) and optimise resources in slower months (January, November).
+
+- **More data needed for further analysis:** There are many confounding variables that are easy to record, but are missing. For example, the qualities that differentiate each type of store, daily sales as opposed to weekly sales, the locations of each store, individual transaction histories of hundreds of stores, etc. This will allow for lower levels of analysis to be performed, thus allowing more granular insights and targeted strategic decisions.
+
+- **Leverage holiday sales patterns** Focus on key holidays that significantly drive sales and tailor messaging and offers around consumer behaviour during these times.
+
+- **Avoid relying solely on temperature trends:** Since temperature does not directly correlate with sales performance, campaigns should focus on other seasonal and behavioural cues instead.
+
+- **Align campaigns with seasonal peaks:** Push more aggressive promotions during spring and summer when customers are more active.
+
+- **Decouple weather from inventory forecasting:** Since sales do not directly correlate with temperature, weather data alone should not guide inventory decisions.
+
 - 
 
 # Assumptions and Caveats:
