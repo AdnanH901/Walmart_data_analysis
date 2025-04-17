@@ -11,8 +11,6 @@ Insights and recommendations are provided on the following key areas:
 
 - **Weather & Sales:** A statistical analysis examining the relationship between temperature and sales, offering insights into whether weather conditions influence consumer purchasing behaviour.
 
-- **Holiday Sales Performance:** A breakdown of holiday sales performance, pinpointing which holidays result in the highest sales and exploring the potential reasons behind those spikes.
-
 ## Key Deliverables and Navigational Links
 
 Targeted SQL queries regarding various business questions are found [here](https://github.com/AdnanH901/Walmart_data_analysis/blob/main/SQL/walmart.sql).
@@ -56,11 +54,6 @@ From 2010 to 2012, Walmart attained a monthly sales average of **600 million**. 
 
 - **Monthly Time Series Analysis:** Walmart experiences a high jump in sales from January, which is at its lowest at around **325 million**, to February, increasing by around **300 million**. Walmart's sales then undergo steady gains till April, where it experiences its first peak. Following April, Walmart experiences a minute dip in sales before steadily increasing till it reaches its second and highest peak in July. After that, the remaining months float above **550 million** sales, except for November at around **400 million** sales.
 - **Seasonal Analysis:** It is clear that Walmart does much better during the warmer seasons than the colder seasons. In the colder seasons, Walmart procured **3.1 billion** sales across the three years and in the warmer seasons, Walmart has procured **3.7 billion** sales over three years. This suggests that <ins>***people buy more items in the hotter climates than the colder climates***</ins>, possibly due to summer holidays.
-
-## **Holiday Sales Performance**
-<img width="1011" alt="image" src="https://github.com/user-attachments/assets/9bd5a02b-31a3-4094-975c-1032fbdc1526"/> 
-<br><be>
-
 
 ## Temperature & Sales
 <img width="560" alt="image" src="https://github.com/user-attachments/assets/532665b2-9c89-4093-9101-5294cee5a2c9"/> 
