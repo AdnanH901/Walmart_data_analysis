@@ -26,7 +26,7 @@ To quickly view the overview of findings and recommendations, click on [Overview
 
 ## Summary of Data
 Walmart's main database structure consists of three tables: features, sales and stores, with a total row count of **430,000**. A description of each table is as follows:
-- **features:** It consists of weekly data from 45 different Walmart stores across the US between 2010 and 2012. It includes features such as the local temperature, fuel prices, CPI, unemployment rates, and whether the given week is a holiday.
+- **features:** It consists of weekly data from 45 different Walmart stores across the US between 2010 and 2012. It includes the local temperature, fuel prices, CPI, unemployment rates, and whether the given week is a holiday.
 - **sales:** Contains weekly sales data of each store over the years 2010-2012.
 - **stores:** Contains the store type and the size of each store (encoded as type A, B and C).
 
@@ -70,15 +70,16 @@ From 2010 to 2012, Walmart attained a monthly sales average of **600 million**. 
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the Store Development, Strategic Planning, Marketing, and Supply Chain teams to consider the following:
+Based on the insights and findings above, we would recommend that the Store Development, Strategic Planning, Marketing, and Supply Chain teams consider the following:
 
 - 
 
 # Assumptions and Caveats:
 
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+Throughout the analysis, multiple assumptions and caveats were made to manage challenges with the data. These assumptions and caveats are noted below.
 
-- **Assumption 1:** The data was drawn from [Kaggle](https://www.kaggle.com/), view the data [here](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast), is assumed to be an accurate depiction of Walmart's sales data.
+<ins> **Assumptions:**<ins/>
+- **Assumption 1:** The data was drawn from [Kaggle](https://www.kaggle.com/), view the data [here](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast), and is assumed to be an accurate depiction of Walmart's sales data.
 
 - **Assumption 2:** The **45 stores** mentioned is a realistic localised depiction of the more than **10,750 store** that Walmart actually has.
 
@@ -86,3 +87,12 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 ```math
 $$Daily\_Sales = \frac{Weekly\_Sales}{7}.$$
 ```
+
+<ins> **Caveats:**<ins/>
+
+- **Caveat 1:** There are many confounding variables at play, especially regarding store type, temperature, CPI and unemployment rates. For example, the data does not show or define any explicit differences between types *A*, *B* and *C*, which leads us to only give high-level analysis on the advantages and drawbacks of each type. From the analysis in [Store Size Impact](#store-size-impact), the data suggests that store types *A* and *C* are objectively better than *B*. However, confounding variables may suggest that stores categorised as *Type B* may provide services/ access markets that the other types cannot, due to their nature.
+
+- **Caveat 2:** There was a limited number of stores that were analysed, ideally, hundreds of stores' sales would be used for analysis.
+
+- **Caveat 3:** Daily records of a store would be used for analysis compared to weekly records. Or even better, the daily transactions would be segmented into different groups for further analysis on possible deal bundles, discounts, etc.
+
