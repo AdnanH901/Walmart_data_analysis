@@ -93,8 +93,6 @@ Based on the insights and findings above, we would recommend that the Store Deve
 
 - **Decouple weather from inventory forecasting:** Since sales do not directly correlate with temperature, weather data alone should not guide inventory decisions.
 
-- 
-
 # Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions and caveats were made to manage challenges with the data. These assumptions and caveats are noted below.
