@@ -13,6 +13,8 @@ Insights and recommendations are provided on the following key areas:
 
 - **Holiday Sales Performance:** A breakdown of holiday sales performance, pinpointing which holidays result in the highest sales and exploring the potential reasons behind those spikes.
 
+## Key Deliverables and Navigational Links
+
 Targeted SQL queries regarding various business questions are found [here](https://github.com/AdnanH901/Walmart_data_analysis/blob/main/SQL/walmart.sql).
 
 The Tableau dashboards presenting insights in the key areas explored are found [here](https://github.com/AdnanH901/Walmart_data_analysis/tree/main/Tableau).
