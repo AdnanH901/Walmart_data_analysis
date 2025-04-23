@@ -98,7 +98,7 @@ Based on the insights and findings above, we would recommend that the Store Deve
 Throughout the analysis, multiple assumptions and caveats were made to manage challenges with the data. These assumptions and caveats are noted below.
 
 ## Assumptions
-- **Assumption 1:** The data was drawn from [Kaggle](https://www.kaggle.com/), view the data [here](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast), and is assumed to be an accurate depiction of Walmart's sales data.
+- **Assumption 1:** The data drawn from [Kaggle](https://www.kaggle.com/), view the data [here](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast), is assumed to be an accurate depiction of Walmart's sales data.
 
 - **Assumption 2:** The **45 stores** mentioned is a realistic localised depiction of the more than **10,750 store** that Walmart actually has.
 
